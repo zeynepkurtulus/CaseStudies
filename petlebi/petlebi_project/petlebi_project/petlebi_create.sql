@@ -1,0 +1,14 @@
+CREATE TABLE IF NOT EXISTS petlebi (
+  id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  product_name VARCHAR(255) NOT NULL,
+  price INT NOT NULL,
+  stock INT NOT NULL,
+  barcode VARCHAR(255) NOT NULL,
+  description TEXT NOT NULL,
+  image VARCHAR(255) NOT NULL,
+  category VARCHAR(255) NOT NULL,
+  brand VARCHAR(255) NOT NULL,
+  product_url VARCHAR(255) NULL,
+  product_id VARCHAR(255) NULL,
+  sku VARCHAR(255) NULL
+);
